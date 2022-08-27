@@ -10,3 +10,8 @@ for number in my_array:
     square_array.append(number**2)
 square_array.sort()
 print(square_array)
+
+# List comprehension solution
+square_array_2 = [x**2 for x in my_array]
+square_array_2.sort()
+print(square_array_2)

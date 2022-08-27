@@ -11,3 +11,8 @@ for number in my_array:
         my_dict[number] = 1
 
 print(my_dict)
+
+# One line approach
+new_dict = dict((number, my_array.count(number)) for number in set(my_array))
+
+print(new_dict)
